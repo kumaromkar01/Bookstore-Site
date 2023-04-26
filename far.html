@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <link rel="icon" href="/images/book-icon-black-good-galleries--24.jpg">
+    <style>
+        body {
+            background-color:white;
+            color: black;
+        }
+
+        nav {
+            background-color: darkcyan;
+            width: 100vw;
+        }
+
+        .right {
+            float: right;
+            display: inline;
+            margin: 6px 7px;
+            /* background-color: black; */
+        }
+
+        .left {
+            float: left;
+            display: inline;
+            margin: 10px 7px;
+        }
+
+        .mid {
+            width: fit-content;
+            margin: auto;
+        }
+
+        #logo {
+            width: 37px;
+            margin: 3px auto;
+            display: block;
+           
+        }
+
+        #profile {
+            display: inline;
+            width: 21px;
+            margin: -6px 9px;
+        }
+
+        div>input {
+            margin: 3px 3px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0px -39px;
+
+        }
+
+        li {
+            display: inline;
+            margin: 3px 3px;
+            padding: 3px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #140556;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .booktype {
+            margin: 25px 38vw;
+            width: max-content;
+            padding: 7px;
+        }
+
+        .engineer {
+            margin: 3px 3px;
+            border: 2px outset blue;
+            padding: 3px;
+            
+            
+        }
+
+        .doctor {
+            margin: 3px 3px;
+            border: 2px outset blue;
+            padding: 3px;
+            
+        }
+
+        .farmer {
+            margin: 3px 3px;
+            border: 2px outset blue;
+            padding: 3px;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            letter-spacing: 0.2px;
+            background-color: #9376f4;
+            color: cornsilk;
+        }
+        table{
+            width: 90%;
+            margin: auto;
+            border: 2px solid #9376f4;
+        }
+        th,td{
+            padding: 3px;
+            border: 2px solid #9376f4;  
+            text-align: center;
+            padding: 5px;
+            font-size: 15px;
+            color: #001043;
+        
+        }
+        table,th,td{
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <input type="search" name="search" placeholder="search">
+                <img src="/images/icon.png" id="profile">
+            </div>
+            <div class="left">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="regis.html">REGSTRATION</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="book.html">LIBRARY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="mid">
+                <img src="/images/book-icon-black-good-galleries--24.jpg" id="logo">
+            </div>
+        </nav>
+    </header>
+    <div class="booktype">
+        <ul class="type">
+            <li><a href="book.html" class="engineer" target="_self">Engineering</a></li>
+            <li><a href="doc.html" class="doctor" target="_self">Medical</a></li>
+            <li><a href="#" class="farmer" target="_self">Agriculture</a></li>
+        </ul>
+
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                   <th>Serial no.</th>
+                   <th>Book Title</th>
+                   <th>ISBN no.</th>
+                   <th>Author</th>
+                   <th>Edition</th>
+                   <th>Subject</th>
+            </tr>
+            <tr>
+                   <td>1.</td>
+                   <td>Fundamentals of Agriculture</td>
+                   <td>9834627389402</td>
+                   <td>Arya</td>
+                   <td>5<sup>th</sup>edition</td>
+                   <td>Basic Agriculture</td>
+            </tr>
+            <tr>
+                   <td>2.</td>
+                   <td>Elements of Agricultural Engineering</td>
+                   <td>8974653890123</td>
+                   <td>Jagdishwar Sahay</td>
+                   <td>9<sup>th</sup>edition</td>
+                   <td>Engineering agriculture</td>
+            </tr>
+            <tr>
+                   <td>3.</td>
+                   <td>Unit Operations of Agricultural Engineering</td>
+                   <td>8975640372819</td>
+                   <td>Sahay K M</td>
+                   <td>31<sup>st</sup>edition</td>
+                   <td>Advanced Agriculture</td>
+            </tr>
+            <tr>
+                   <td>4.</td>
+                   <td>Utilization of Agricultural Biomass</td>
+                   <td>9857475809342</td>
+                   <td>Jaswinder Singh</td>
+                   <td>52<sup>nd</sup>edition</td>
+                   <td>Agricultural Production</td>
+            </tr>
+            <tr>
+                   <td>5.</td>
+                   <td>Agricultural Machinery and Mechanization</td>
+                   <td>9768534261253</td>
+                   <td>Engr Segun R Bello</td>
+                   <td>34<sup>th</sup>edition</td>
+                   <td>Machineries of Agriculture</td>
+            </tr>
+     </table>
+     <br>
+     <br>
+    </div>
+    
+
+
+
+</body>
+
+</html>
